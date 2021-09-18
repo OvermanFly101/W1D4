@@ -1,0 +1,180 @@
+body {
+  background-color:#A9E4D7;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.main {
+  width: 80%;
+}
+/*header*/
+.header {
+  background-color: #4B3869;
+  padding: 10px;
+  height: 99px;
+}
+h1{
+  font-size: 45px;
+}
+
+.navbar{
+  margin-left: 100px;
+  color: white;
+}
+.tools {
+  list-style-type: none;
+}
+.tools li{
+  padding: 5px;
+  margin-right: 20px;
+}
+
+.button {
+  margin-left: 430px;
+}
+
+input {
+  background-color: #5cbaa5;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+}
+.col-header1 p{
+  background-color: #664E88;
+  color: whitesmoke;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+/*columns*/
+.col-1, .col-2{
+  justify-content: center;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+.col-1{
+  flex: 2;
+  padding: 0px;
+  margin-left: 100px;
+}
+.col-2{
+  flex:1;
+  align-self: baseline;
+}
+li{
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+
+
+/*Headers for: education div, col-2*/
+.col-header1 {
+  text-align: right;
+  background-color: #63B4B8;
+  padding: 5px;
+}
+.col-header1 h2 {
+  margin: 0px;
+}
+.colheader1 .comm2{
+  padding: 0;
+}
+
+/*column 1*/
+.card1, .card2{
+  border:2px solid #63b4b8b4;
+  height: 500px;
+  width: 700px;
+  margin-bottom: 40px;
+  background-color: rgb(205, 228, 228);
+}
+.col-1 h1{
+  font-size: 45px;
+}
+
+.col-header {
+  background-color:#664E88;
+  height: 100px;
+  width: 692px;
+  padding: 5px;
+}
+.col-header img{
+  height: 150px;
+  width: 150px;
+  left: 20px;
+  margin-top: 35px;
+  margin-left: 10px;
+}
+.info {
+  font-size: 25px;
+  margin-top: 10%;
+  margin-left: 15px;
+  
+}
+.ultitles {
+  justify-content: left;
+}
+
+.edu {
+  font-size: 20px;
+  margin-top: 5%;
+  margin-left: 15px;
+}
+.a{
+  margin-top: 100px;
+}
+
+
+
+/*Column 2*/
+.comm1, .comm2 {
+  width: 300px;
+  margin-right: 50px;
+  margin-bottom: 40px;
+  border:2px solid #63b4b8b4;
+  background-color: rgb(144, 175, 186);
+}
+
+#longJohn {
+  width: 30px;
+  margin-right: 20px;
+}
+
+.comm1{
+  height: 230px;
+}
+.comm2{
+  height: 400px;
+}
+.users{
+  padding: 0px;
+}
+#todd{
+  margin-right: 79px;
+}
+#rich{
+  margin-right: 60px;
+}
+[alt="user"]{
+  height: 55px;
+  width: 55px;
+}
+
+[alt="yesNo"]{
+  height: 30px;
+  width: 30px;
+}
+.masterCol2 {
+  border:2px solid #63b4b8b4;
+  width: 302px;
+}
+.a2 {
+  margin: 0px;
+  padding-top: 7px;
+  background-color: rgb(144, 175, 186);
+}
+
